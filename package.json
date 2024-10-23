@@ -1,9 +1,9 @@
 {
   "name": "chatattempt",
   "version": "1.0.0",
-  "main": "socket.js", // Replace with your server file name
+  "main": "socket.js", 
   "scripts": {
-    "start": "node socket.js" // Replace with your server file name
+    "start": "node socket.js" 
   },
   "dependencies": {
     "express": "^4.18.2",
