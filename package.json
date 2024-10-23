@@ -1,13 +1,12 @@
 {
   "name": "chatattempt",
   "version": "1.0.0",
-  "main": "socket.js",
+  "main": "socket.js", // Replace with your server file name
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node socket.js"
+    "start": "node socket.js" // Replace with your server file name
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.0.0"
+  }
 }
